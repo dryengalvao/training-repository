@@ -64,7 +64,7 @@ public class TelaLista extends JDialog {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				TelaLista thisClass = new TelaLista(null,
-						"Tela Lista", true);
+						"Tela Lista de Nomes", true);
 				thisClass.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 				thisClass.setVisible(true);
 			}
@@ -91,7 +91,6 @@ public class TelaLista extends JDialog {
 			taNomes.setText(pessoaDao.pesquisa());
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
