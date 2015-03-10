@@ -134,4 +134,4 @@ public class TelaPrincipal extends JFrame {
 		return jContentPane;
 	}
 
-}  //  @jve:decl-index=0:visual-constraint="10,10"
+}  
