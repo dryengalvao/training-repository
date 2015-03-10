@@ -111,7 +111,7 @@ public class TelaPrincipal extends JFrame {
 	private void initialize() {
 		this.setSize(507, 275);
 		this.setContentPane(getJContentPane());
-		this.setTitle("Tela Principal");
+		this.setTitle("Tela Principal da Aplicação");
 	}
 
 	/**
